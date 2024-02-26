@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            color: white;
+            background-color: gray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <Table>
+        <caption>População das Unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 71</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 945</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 557 071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 132 076</td>
+            </tr>
+            <tr>
+                <td>pará</td>
+                <td class="num">8 602 865</td>
+            </tr>
+            <tr>
+                <td>Santa catarina</td>
+                <td class="num">7 164 788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 075 181</td>
+            </tr>
+            <tr>
+                <td>goiás</td>
+                <td class="num">7 018 354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 144 597</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">4 018 127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 506 853</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 484 466</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 337 357</td>
+            </tr>
+            <tr>
+                <td>piauí</td>
+                <td class="num">3 273 227</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">3 015 268</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2 778 986</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2 298 696</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td class="num">1 777 225</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1 572 866</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">861 935</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">845 731</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">605 761</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </Table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio aliquam fugiat possimus amet dicta atque quo doloribus ea voluptate natus inventore recusandae, repellendus nobis voluptatibus, optio provident voluptas maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio quia, sed numquam non architecto ipsam ratione repellendus voluptas ex et fuga neque ad soluta, aliquam ut beatae iste ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit! Tempora, numquam consequuntur! Aspernatur id vel totam eveniet ipsam officia, aperiam nam voluptatum beatae optio fuga enim velit! Enim, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae officiis perferendis numquam unde explicabo nobis facere sequi earum, debitis nostrum repellendus, mollitia, aut ipsam eum eaque sapiente! Dolorum, quibusdam velit!
+    </p>
+</body>
+</html>
